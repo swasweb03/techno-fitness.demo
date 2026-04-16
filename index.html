@@ -23,35 +23,46 @@
     }
 
     .overlay {
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.7);
       padding: 40px;
-      border-radius: 10px;
+      border-radius: 12px;
     }
 
     h1 {
-      font-size: 42px;
+      font-size: 44px;
       margin-bottom: 10px;
       color: #FFD700;
     }
 
-    p {
-      font-size: 18px;
+    .tagline {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .subtext {
+      font-size: 14px;
+      color: #ccc;
       margin-bottom: 20px;
     }
 
     .btn {
       display: inline-block;
-      padding: 12px 20px;
+      padding: 14px 22px;
       margin: 10px;
       background: #FFD700;
       color: #000;
       text-decoration: none;
       font-weight: bold;
-      border-radius: 5px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #fff;
     }
 
     .section {
-      padding: 40px;
+      padding: 50px 20px;
       text-align: center;
     }
 
@@ -62,11 +73,21 @@
     }
 
     .feature {
-      width: 250px;
-      margin: 10px;
+      width: 260px;
+      margin: 12px;
       padding: 20px;
       background: #111;
-      border-radius: 10px;
+      border-radius: 12px;
+      font-size: 16px;
+    }
+
+    h2 {
+      color: #FFD700;
+      margin-bottom: 20px;
+    }
+
+    .services p {
+      margin: 6px 0;
     }
 
   </style>
@@ -74,16 +95,19 @@
 
 <body>
 
+  <!-- HERO -->
   <div class="hero">
     <div class="overlay">
-      <h1>Train Like a Beast</h1>
-      <p>Techno Fitness Gym | Jamshedpur | Dimna Chowk</p>
+      <h1>Techno Fitness Gym</h1>
+      <p class="tagline">Transform Your Body in Jamshedpur 💪</p>
+      <p class="subtext">Trainer: Sanjeev | Dimna Chowk</p>
 
-      <a href="tel:+917488796896" class="btn">Call Now</a>
-      <a href="https://wa.me/917488796896" class="btn">WhatsApp</a>
+      <a href="tel:+917488796896" class="btn">Call & Book Now</a>
+      <a href="https://wa.me/917488796896" class="btn">Chat on WhatsApp</a>
     </div>
   </div>
 
+  <!-- WHY US -->
   <div class="section">
     <h2>Why Choose Us</h2>
     <div class="features">
@@ -94,12 +118,22 @@
     </div>
   </div>
 
+  <!-- SERVICES -->
+  <div class="section services">
+    <h2>Our Services</h2>
+    <p>• Weight Training</p>
+    <p>• Fat Loss Programs</p>
+    <p>• Muscle Gain Programs</p>
+    <p>• Personal Training Available</p>
+  </div>
+
+  <!-- CTA -->
   <div class="section">
-    <h2>Visit Us Today</h2>
-    <p>Start your fitness journey now. Contact us directly!</p>
+    <h2>Start Your Fitness Journey Today</h2>
+    <p>Contact us now and take the first step 💪</p>
 
     <a href="tel:+917488796896" class="btn">Call Now</a>
-    <a href="https://wa.me/917488796896" class="btn">WhatsApp</a>
+    <a href="https://wa.me/917488796896" class="btn">WhatsApp Now</a>
   </div>
 
 </body>
